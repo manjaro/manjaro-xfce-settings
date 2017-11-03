@@ -9,10 +9,6 @@ usermodmap=$HOME/.Xmodmap
 sysresources=/etc/X11/xinit/.Xresources
 sysmodmap=/etc/X11/xinit/.Xmodmap
 
-export EDITOR=/usr/bin/nano
-export QT_QPA_PLATFORMTHEME="qt5ct"
-export GTK2_RC_FILES="$HOME/.gtkrc-2.0"
-
 DEFAULT_SESSION=xfce4-session
 
 # merge in defaults and keymaps
