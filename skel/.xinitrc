@@ -9,7 +9,7 @@ usermodmap=$HOME/.Xmodmap
 sysresources=/etc/X11/xinit/.Xresources
 sysmodmap=/etc/X11/xinit/.Xmodmap
 
-DEFAULT_SESSION=xfce4-session
+SESSION=${1:-xfce}
 
 # merge in defaults and keymaps
 
@@ -40,7 +40,7 @@ fi
 
 get_session(){
 	local dbus_args=(--sh-syntax --exit-with-session)
-	case $1 in
+	case "$SESSION" in
 		awesome) dbus_args+=(awesome) ;;
 		bspwm) dbus_args+=(bspwm-session) ;;
 		budgie) dbus_args+=(budgie-desktop) ;;
@@ -57,7 +57,7 @@ get_session(){
 		mate) dbus_args+=(mate-session) ;;
 		xfce) dbus_args+=(xfce4-session) ;;
 		openbox) dbus_args+=(openbox-session) ;;
-		*) dbus_args+=($DEFAULT_SESSION) ;;
+		*) dbus_args+=("$SESSION") ;;
 	esac
 
 	echo "dbus-launch ${dbus_args[*]}"
