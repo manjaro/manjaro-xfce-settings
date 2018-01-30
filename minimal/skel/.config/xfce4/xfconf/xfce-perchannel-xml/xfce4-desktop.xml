@@ -13,6 +13,7 @@
   </property>
   <property name="desktop-icons" type="empty">
     <property name="style" type="int" value="2"/>
+    <property name="center-text" type="bool" value="false"/>
     <property name="file-icons" type="empty">
       <property name="show-removable" type="bool" value="false"/>
     </property>
