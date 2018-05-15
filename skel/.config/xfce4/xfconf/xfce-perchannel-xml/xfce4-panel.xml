@@ -54,6 +54,8 @@
         <value type="string" value="xfce4-power-manager"/>
         <value type="string" value="xnoise"/>
       </property>
+      <property name="show-frame" type="bool" value="false"/>
+      <property name="size-max" type="uint" value="24"/>
     </property>
     <property name="plugin-3" type="string" value="tasklist">
       <property name="grouping" type="uint" value="1"/>
