@@ -32,7 +32,7 @@
   <property name="misc-single-click-timeout" type="uint" value="500"/>
   <property name="misc-text-beside-icons" type="bool" value="false"/>
   <property name="shortcuts-icon-emblems" type="bool" value="true"/>
-  <property name="shortcuts-icon-size" type="string" value="THUNAR_ICON_SIZE_SMALLER"/>
+  <property name="shortcuts-icon-size" type="string" value="THUNAR_ICON_SIZE_SMALLEST"/>
   <property name="tree-icon-emblems" type="bool" value="true"/>
   <property name="tree-icon-size" type="string" value="THUNAR_ICON_SIZE_SMALLEST"/>
   <property name="misc-middle-click-in-tab" type="bool" value="true"/>
