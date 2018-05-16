@@ -40,6 +40,9 @@
       <property name="Super_L" type="string" value="xfce4-popup-whiskermenu"/>
       <property name="Super_R" type="string" value="xfce4-popup-whiskermenu"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;t" type="string" value="xfce4-terminal --drop-down"/>
+      <property name="Print" type="string" value="xfce4-screenshooter -fd 1"/>
+      <property name="&lt;Shift&gt;Print" type="string" value="xfce4-screenshooter -wd 1"/>
+      <property name="&lt;Primary&gt;&lt;Shift&gt;Print" type="string" value="xfce4-screenshooter -r"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
