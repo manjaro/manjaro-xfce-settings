@@ -19,3 +19,4 @@ ScrollingLines=999999
 BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
 BackgroundDarkness=0.750000
 ScrollingOnOutput=FALSE
+FontName=Monospace 11
